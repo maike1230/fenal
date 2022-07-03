@@ -10,5 +10,6 @@
 * linguist-vendored
 *.js linguist-vendored=false
 <htlm>
+  <body bgcolor="#c0c0c0">
 <header>
   <h1></h1>
