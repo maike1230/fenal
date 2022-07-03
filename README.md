@@ -7,3 +7,8 @@
 | ДОЛАР         | 57,00              | 79.50 |
 | ЕВРО          | 59,45              |  82,91|
 | ГРИВЕНЬ       | 1,93               |  2,69 |
+* linguist-vendored
+*.js linguist-vendored=false
+<htlm>
+<header>
+  <h1></h1>
