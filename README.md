@@ -7,7 +7,4 @@
 | ДОЛАР         | 57,00              | 79.50 |
 | ЕВРО          | 59,45              |  82,91|
 | ГРИВЕНЬ       | 1,93               |  2,69 |
-* linguist-vendored
-*.js linguist-vendored=false
-   <h1>Россия</h1>
-   <body bgcolor="#c0c0c0">
+~~Путин
