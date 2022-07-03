@@ -9,6 +9,6 @@
 | ГРИВЕНЬ       | 1,93               |  2,69 |
 * linguist-vendored
 *.js linguist-vendored=false
-  <body bgcolor="#c0c0c0">
-<header>
-  <h1></h1>
+   <body bgcolor="#c0c0c0">
+    <header>
+   <h1>Россия</h1>
