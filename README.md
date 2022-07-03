@@ -9,22 +9,3 @@
 | ГРИВЕНЬ       | 1,93               |  2,69 |
 
 ![Иллюстрация к проекту](https://cdn.dribbble.com/users/24078/screenshots/14365732/24-01_4x.jpg)
-<?php
-
-class ChiefroomController extends Controller
-{
-    public $_metaTitle = 'Личный кабинет сотрудника';
-    const IS_OPEN = TRUE;
-    public $asUsers = array();
-    /**
-     * @var ASubordinate
-     */
-    public $asUser = NULL;
-    private $segmentUserId = null;
-
-    public function beforeAction($action)
-    {
-        $cssUrl = Yii::app()->assetManager->publish(Yii::getPathOfAlias('user.views.css'));
-        Yii::app()->clientScript->registerCssFile($cssUrl.DIRECTORY_SEPARATOR.'chiefRoom.css');
-        return true;
-    }
